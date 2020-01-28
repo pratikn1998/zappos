@@ -30,8 +30,6 @@ ul {
   list-style: none;
 }
 
-
-
 /* Utilities */
 .container {
   max-width: 1100px;
@@ -137,67 +135,38 @@ ul {
   outline: none;
 }
 
-.badge {
-  font-size: 0.8rem;
-  padding: 0.1rem;
-  text-align: center;
-  margin: 0.3rem;
-  background: var(--light-color);
-  color: #333;
-}
-
-.alert {
-  padding: 0.8rem;
-  margin: 1rem 0;
-  opacity: 0.9;
-  background: var(--light-color);
-  color: #333;
-}
-
 .btn-primary,
-.bg-primary,
-.badge-primary,
-.alert-primary {
+.bg-primary {
   background: var(--primary-color);
   color: #fff;
 }
 
 .btn-light,
-.bg-light,
-.badge-light,
-.alert-light {
+.bg-light {
   background: var(--light-color);
   color: #333;
 }
 
 .btn-dark,
-.bg-dark,
-.badge-dark,
-.alert-dark {
+.bg-dark {
   background: var(--dark-color);
   color: #fff;
 }
 
 .btn-danger,
-.bg-danger,
-.badge-danger,
-.alert-danger {
+.bg-danger {
   background: var(--danger-color);
   color: #fff;
 }
 
 .btn-success,
-.bg-success,
-.badge-success,
-.alert-success {
+.bg-success {
   background: var(--success-color);
   color: #fff;
 }
 
 .btn-white,
-.bg-white,
-.badge-white,
-.alert-white {
+.bg-white {
   background: #fff;
   color: #333;
   border: #ccc solid 1px;
@@ -207,13 +176,8 @@ ul {
   opacity: 0.8;
 }
 
-.bg-light,
-.badge-light {
+.bg-light {
   border: #ccc solid 1px;
-}
-
-.round-img {
-  border-radius: 50%;
 }
 
 .line {
@@ -232,77 +196,79 @@ ul {
   height: 100%;
 }
 
-/* Forms */
-.form .form-group {
-  margin: 1.2rem 0;
-}
-
-.form .form-text {
-  display: block;
-  margin-top: 0.3rem;
-  color: #888;
-}
-
-.form input[type='text'],
-.form input[type='email'],
-.form input[type='password'],
-.form input[type='date'],
-.form select,
-.form textarea {
-  display: block;
-  width: 100%;
-  padding: 0.4rem;
-  font-size: 1.2rem;
-  border: 1px solid #ccc;
-}
-
-.form input[type='submit'],
-button {
-  font: inherit;
-}
-
-.form .social-input {
-  display: flex;
-}
-
-.form .social-input i {
-  padding: 0.5rem;
-  width: 4rem;
-}
-
-.form .social-input i.fa-twitter {
-  color: #38a1f3;
-}
-.form .social-input i.fa-facebook {
-  color: #3b5998;
-}
-.form .social-input i.fa-instagram {
-  color: #3f729b;
-}
-.form .social-input i.fa-youtube {
-  color: #c4302b;
-}
-.form .social-input i.fa-linkedin {
-  color: #0077b5;
-}
-
-.table th,
-.table td {
-  padding: 1rem;
-  text-align: left;
-}
-
-.table th {
-  background: var(--light-color);
-}
-
 /* Navbar */
 .navbar {
+  background: var(--dark-color);
+  border-bottom: solid 1px var(--primary-color);
+}
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.5rem;
+}
+.navbar ul {
+  display: flex;
+}
+.topnav-right{
+  float:right;
+}
+.navbar-light .navbar-brand{
+  color: #fff;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: var(--primary-color);
+}
+
+.navbar-light .navbar-brand:active{
+  color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  
+    color: #fff;
+    padding: 0.45rem;
+    margin: 0 0.50rem;
+  
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  
+  color: var(--primary-color);
+
+}
+
+#navitemwhite{
+  color: white;
+}
+
+#navitemwhite:active{
+  color: var(--primary-color);
+}
+
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.4rem 2.5rem;
-  /* position: fixed; */
+  position: fixed;
   z-index: 1;
   width: 100%;
   top: 0;
@@ -326,142 +292,16 @@ button {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
-}
-
-/* .sticky-nav {
-  position: sticky;
-  top: 0;
 } */
 
-#aboutme {
-  padding: 75px 15px;
-  border-bottom: 1px solid #dcd9d9;
-}
-
-
 /* Landing Page */
+
+
 .landing {
   position: relative;
-  background: url('./img/llamalanding.jpg') no-repeat center center/cover;
+  background: url('./img/llamalandingtwo.jpg') no-repeat center center/cover;
   height: 100vh;
 }
-
-.aboutpratik {
-  position: relative;
-  background: url('./img/atlanta.jpg') no-repeat center center/cover;
-  height: 100vh;
-}
-
-#pratikfrontendreason{
-  padding: 50px 15px;
-  text-align: center;
-  background: #e0dcdc;
-
-}
-
-#pratikexperience{
-  padding: 50px 15px;
-  text-align: center;
-  border-bottom: 1px solid #dcd9d9;
-}
-
-.pratikexptimeline {
-  margin: 30px auto 0 auto;
-  position: relative;
-  max-width: 1000px;
-}
-
-.pratikexptimelinesection{
-  position: relative;
-  display: block;
-  vertical-align: top;
-  margin-bottom: 30px;
-}
-
-.pratikexptimelinedate{
-  width: 260px;
-  text-align: right;
-  position: absolute;
-  left: 0;
-  top: 10px;
-  font-weight: 300;
-  color: #374054;
-}
-
-.pratikexptimelinecontent{
-  margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
-    padding: 15px;
-    border-radius: 3px;
-    text-align: left;
-}
-
-.pratikexpicon{
-  position: relative;
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  background: #3498db;
-  border-radius: 50%;
-  float: left;
-  z-index: 99;
-  margin-left: 280px;
-}
-
-
-#pratikeducation{
-  padding: 50px 15px 20px 15px;
-  border-bottom: 1px solid #dcd9d9;
-  text-align: center;
-  background: #e0dcdc;
-
-}
-
-.pratikeducationitem{
-  max-width: 700px;
-  margin: 0 auto 30px auto;
-  padding: 15px;
-  border: 1px solid black;
-  text-align: left;
-}
-
-.pratikeducationitem span{
-  color: #858483;
-  float: right;
-  font-size: 60%;
-  margin-top: 1.5%;
- 
-}
-#pratikskills{
-  padding: 50px 15px;
-  text-align: center;
-
-}
-#pratikskills ul{
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  max-width: 800px;
-}
-#pratikskills li{
-  display: inline-block;
-  margin: 7px;
-  padding: 5px 10px;
-  color: #374054;
-  background: #e4e4ea;
-  list-style: none;
-  cursor: default;
-  font-size: 1.2em;
-}
-
-
-
-
-
-
-
-
 .landing-inner {
   color: #fff;
   height: 100%;
@@ -474,143 +314,176 @@ button {
   text-align: center;
 }
 
-/* Profiles Page */
-.profile {
-  display: grid;
-  grid-template-columns: 2fr 4fr 2fr;
-  align-items: center;
-  grid-gap: 2rem;
-  padding: 1rem;
-  line-height: 1.8;
+/*Pratik page*/
+#aboutme {
+  padding: 55px 10px;
+  border-bottom: 1px solid #dcd9d9;
+}
+
+.aboutpratik {
+  position: relative;
+  background: url('./img/atlanta.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+#pratikimage{
+  width: 100%;
+  border: 2px solid black
+}
+
+#computerimage {
+  width: 100%;
+  height: 100%;
+}
+#pratikcontainer {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-/* Profile Page */
-.profile-grid {
-  display: grid;
-  grid-template-areas:
-    'top top'
-    'about about'
-    'exp edu'
-    'github github';
-  grid-gap: 1rem;
+.imageborder {
+  display: block;
+  border-radius: 100%;
+  box-sizing: border-box;
+  background-color: #DDD;
+  border: 3px solid #cfd8dc;
 }
 
-.profile-top {
-  grid-area: top;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+#pratikfrontendreason {
+  padding: 40px 10px;
+  background: #e0dcdc;
+}
+
+#pratikexperience {
+  padding: 50px 15px;
   text-align: center;
+  border-bottom: 1px solid #dcd9d9;
 }
 
-.profile-top img {
-  width: 250px;
+.pratikexptimeline {
+  margin: 30px auto 0 auto;
+  position: relative;
+  max-width: 1000px;
 }
 
-.profile-top .icons a {
+.pratikexptimelinesection {
+  position: relative;
+  display: block;
+  vertical-align: top;
+  margin-bottom: 1rem;
+  
+}
+
+.pratikexptimelinedate {
+  width: 260px;
+  text-align: right;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-weight: 300;
+  color: #374054;
+}
+
+.pratikexptimelinecontent {
+  margin-left: 350px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.pratikexpicon {
+  position: relative;
   color: #fff;
-  margin: 0 0.3rem;
+  width: 50px;
+  height: 50px;
+  background: #3498db;
+  border-radius: 50%;
+  float: left;
+  z-index: 99;
+  margin-left: 280px;
 }
 
-.profile-top .icons a:hover {
-  color: var(--dark-color);
+#pratikeducation {
+  padding: 50px 15px 20px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center;
+  background: #e0dcdc;
 }
 
-.profile-about {
-  grid-area: about;
+.pratikeducationitem {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+.pratikeducationitem span {
+  color: #858483;
+  float: right;
+  font-size: 60%;
+  margin-top: 1.5%;
+}
+#pratikskills {
+  padding: 50px 15px;
+  text-align: center;
+}
+#pratikskills ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+#pratikskills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: #374054;
+  background: #e4e4ea;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+}
+
+/*Lama facts, jokes, gifs Page*/
+.aboutllamas {
+  position: relative;
+  background: url('./img/llamapage.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+#llamafunfacts {
+  padding: 50px 15px;
+}
+#llamajokes {
+  padding: 50px 15px;
+  background: #e0dcdc;
+}
+#llamagifs {
+  padding: 50px 15px;
+}
+
+/*footer*/
+.footer-style {
+  background: #f5f5f5;
+  margin-bottom: 0;
+}
+.footer-container {
+  width: auto;
+  padding: 20px 30px;
   text-align: center;
 }
 
-.profile-about .skills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.footer-container a {
+  color: black;
 }
 
-.profile-exp {
-  grid-area: exp;
-}
-
-.profile-edu {
-  grid-area: edu;
-}
-
-.profile-exp h2,
-.profile-edu h2 {
-  margin-bottom: 1rem;
-}
-
-.profile-exp > div,
-.profile-edu > div {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: #ccc 1px dotted;
-}
-
-.profile-exp > div:last-child,
-.profile-edu > div:last-child {
-  border: 0;
-}
-
-.profile-exp p,
-.profile-edu p {
-  margin: 0.5rem 0;
-}
-
-.profile-github {
-  grid-area: github;
-}
-
-.profile-github .repo {
-  display: flex;
-}
-
-.profile-github .repo > div:first-child {
-  flex: 7;
-  flex-basis: 70%;
-}
-
-.profile-github > div:last-child {
-  flex: 3;
-  flex-basis: 20%;
-}
-
-/* Posts Page */
-.post-form .post-form-header {
-  background: var(--primary-color);
-  padding: 0.5rem;
-}
-
-.post {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-gap: 2rem;
-  align-items: center;
-}
-
-.post > div:first-child {
-  text-align: center;
-}
-
-.post img {
-  width: 100px;
-}
-
-.post .comment-count {
-  background: var(--light-color);
+.footer-container a:hover {
   color: var(--primary-color);
-  padding: 0.1rem 0.2rem;
-  border-radius: 5px;
-  font-size: 0.8rem;
-}
-
-.post .post-date {
-  color: #aaa;
-  font-size: 0.8rem;
-  margin-bottom: 0.5rem;
 }
 
 /* Mobile Styles */
@@ -654,54 +527,4 @@ button {
   .navbar .welcome {
     display: none;
   }
-
-  /* Profiles Page */
-  .profile {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .profile ul {
-    display: none;
-  }
-
-  /* Profile Page */
-
-  .profile-top img,
-  .profile img {
-    width: 200px;
-    margin: auto;
-  }
-
-  .profile-grid {
-    grid-template-areas:
-      'top'
-      'about'
-      'exp'
-      'edu'
-      'github';
-  }
-
-  .profile-about .skills {
-    flex-direction: column;
-  }
-
-  .dash-buttons a {
-    display: block;
-    width: 100%;
-    margin-bottom: 0.2rem;
-  }
-
-  .post {
-    grid-template-columns: 1fr;
-  }
-  .post a,
-  .post button {
-    padding: 0.3rem 0.4rem;
-  }
-}
-
-
-.footer-style{
-  color: var(--dark-color);
 }
