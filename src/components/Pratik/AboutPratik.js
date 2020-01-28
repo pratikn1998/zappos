@@ -26,6 +26,10 @@ const AboutPratik = () => {
                 </div>
             </div>  
         </div>
+        <div id="pratikfrontendreason">
+            <h2>Front-End Development and Why I love it...</h2>
+            <p>One of the main reasons why I am passionate about front-end development is that it drives my need to be creative and constantly think with a new perspective. Depending on the user and target of the website, I am able to use different styles to appeal to a website’s user. Since front-end development is responsible for what the user sees and how they interact with the app, I enjoy being able to provide my own judgement and input as to what I think a user would enjoy and like to see. From my experience in a startup, I really enjoyed interacting with customers and understanding their perspective. That is why I enjoy front end development so much, as every decision made as a developer can impact the user/customer and help make their user experience smooth. With technologies like Npm, React, and Angular, GitHub it is much easier to be able to reuse and share code with team members. By using frameworks and libraries that are component-based development is accelerated and the user experience is more consistent. My goals are to become more experienced as a front-end developer, utilize my skillset to help build new products and solutions, and to deliver an organized and smooth user experience for customers.</p>
+        </div>
         <div id ="pratikexperience">
             <div className="container">
                 <h2><u>Experience</u></h2>
