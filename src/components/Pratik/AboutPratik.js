@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 const pratikphoto = require('./PratikNallamotu.jpg');
-const computer = require('./frontendimage.jpg');
-
+const computer = require('./code.jpg');
 
 const AboutPratik = () => {
   return (
@@ -14,11 +12,11 @@ const AboutPratik = () => {
         </div>
       </section>
       <div id='aboutme'>
-        <div className='container' id="pratikcontainer">
+        <div className='container pratikcontainer' id='aboutmemargin'>
           <div className='row'>
             <div className='col-sm-4'>
-              <h2 className="text-center">About Me</h2>
-              <img id="pratikimage" src={pratikphoto} />
+              <h2 className='text-center'>About Me</h2>
+              <img id='pratikimage' src={pratikphoto} alt='Pratik' />
             </div>
             <div className='col-sm-8'>
               <p>
@@ -69,43 +67,48 @@ const AboutPratik = () => {
           </div>
         </div>
       </div>
-      <div id='pratikfrontendreason'>
-        <h2 className="text-center">Front-End Development and Why I love it...</h2>
-        <div className='container' id="pratikcontainer">
+      <div className='pratikfrontendreason'>
+        <h2 className='text-center '>
+          Front-End Development and Why I love it...
+        </h2>
+        
+
+        <div id="imagedivmargin"className='container pratikcontainer'>
           <div className='row'>
-          <div className='col-sm-4'>
-              <img id="computerimage" className="imageborder" src={computer} />
+            <div className='col-md-4'>
+              <img id='computerimage' src={computer} alt='Computer' />
             </div>
-            <div className="col-sm-8">
+            <div className='col-md-8'>
               <p>
-          One of the main reasons why I am passionate about front-end
-          development is that it drives my need to be creative and constantly
-          think with a new perspective. Depending on the user and target of the
-          website, I am able to use different styles to appeal to a website’s
-          user. Since front-end development is responsible for what the user
-          sees and how they interact with the app, I enjoy being able to provide
-          my own judgement and input as to what I think a user would enjoy and
-          like to see. From my experience in a startup, I really enjoyed
-          interacting with customers and understanding their perspective. That
-          is why I enjoy front end development so much, as every decision made
-          as a developer can impact the user/customer and help make their user
-          experience smooth. With technologies like Npm, React, and Angular,
-          GitHub it is much easier to be able to reuse and share code with team
-          members. By using frameworks and libraries that are component-based
-          development is accelerated and the user experience is more consistent.
-          My goals are to become more experienced as a front-end developer,
-          utilize my skillset to help build new products and solutions, and to
-          deliver an organized and smooth user experience for customers.
-        </p>
-            </div>
+                One of the main reasons why I am passionate about front-end
+                development is that it drives my need to be creative and
+                constantly think with a new perspective. Depending on the user
+                and target of the website, I am able to use different styles to
+                appeal to a website’s user. Since front-end development is
+                responsible for what the user sees and how they interact with
+                the app, I enjoy being able to provide my own judgement and
+                input as to what I think a user would enjoy and like to see.
+                From my experience in a startup, I really enjoyed interacting
+                with customers and understanding their perspective. That is why
+                I enjoy front end development so much, as every decision made as
+                a developer can impact the user/customer and help make their
+                user experience smooth. With technologies like Npm, React, and
+                Angular, GitHub it is much easier to be able to reuse and share
+                code with team members. By using frameworks and libraries that
+                are component-based development is accelerated and the user
+                experience is more consistent. My goals are to become more
+                experienced as a front-end developer, utilize my skillset to
+                help build new products and solutions, and to deliver an
+                organized and smooth user experience for customers.
+              </p>
             </div>
           </div>
-       
+        </div>
       </div>
       <div id='pratikexperience'>
-        <div className='container' id="pratikcontainer">
+        <div className='container pratikcontainer' id='experiencemargin'>
           <h2>
-            <u>Experience</u>
+            Experience
           </h2>
           <div className='pratikexptimelinesection'>
             <div className='pratikexpicon'>
@@ -168,35 +171,38 @@ const AboutPratik = () => {
           </div>
         </div>
       </div>
-      <div id='pratikeducation'>
-        <h2>
-          <u>Education</u>
-        </h2>
-        <div className='pratikeducationitem'>
-          <h3>
-            Georgia Institute of Technology <span>August 2017 - Present</span>
-          </h3>
-          <h4>Bachelor of Science in Computer Science</h4>
-          <p>
-            Threads: Intelligence and People
-            <br />
-            Relevant Courses:
-            <br />
-            - Intro to Computing
-            <br />
-            - Intro to Object-Oriented Programming
-            <br />
-            - Data Structures and Algorithms
-            <br />
-            - Objects and Design
-            <br />
-            - Computer Organization and Programming
-            <br />
-            - Intro to Artificial Intelligence
-            <br />- Design and Analysis of Algorithms
-          </p>
+      <div className='frontendreason'>
+        <div id='pratikeducation'>
+          <h2>
+            Education
+          </h2>
+          <div className='pratikcontainer pratikeducationitem'>
+            <h3 className='mt-3' id="edtextsmall">
+              Georgia Institute of Technology <span>August 2017 - Present</span>
+            </h3>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p>
+              Threads: Intelligence and People
+              <br />
+              Relevant Courses:
+              <br />
+              - Intro to Computing
+              <br />
+              - Intro to Object-Oriented Programming
+              <br />
+              - Data Structures and Algorithms
+              <br />
+              - Objects and Design
+              <br />
+              - Computer Organization and Programming
+              <br />
+              - Intro to Artificial Intelligence
+              <br />- Design and Analysis of Algorithms
+            </p>
+          </div>
         </div>
       </div>
+
       <div id='pratikskills'>
         <h2>Skills/Languages</h2>
         <ul>

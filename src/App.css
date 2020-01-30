@@ -198,7 +198,7 @@ ul {
 
 /* Navbar */
 .navbar {
-  background: var(--dark-color);
+  background: #032c48;
   border-bottom: solid 1px var(--primary-color);
 }
 .navbar a {
@@ -209,59 +209,43 @@ ul {
 .navbar ul {
   display: flex;
 }
-.topnav-right{
-  float:right;
+.topnav-right {
+  float: right;
 }
-.navbar-light .navbar-brand{
+.navbar-light .navbar-brand {
   color: #fff;
 }
 
-.navbar-light .navbar-brand:hover{
+.navbar-light .navbar-brand:hover {
   color: var(--primary-color);
 }
 
-.navbar-light .navbar-brand:active{
+.navbar-light .navbar-brand:active {
   color: var(--primary-color);
 }
 
 .navbar-light .navbar-nav .nav-link {
-  
-    color: #fff;
-    padding: 0.45rem;
-    margin: 0 0.50rem;
-  
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.5rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  
   color: var(--primary-color);
-
 }
 
-#navitemwhite{
+#navitemwhite {
   color: white;
 }
 
-#navitemwhite:active{
+#navitemwhite:active {
   color: var(--primary-color);
 }
-
 
 .navbar-light .navbar-toggler {
   color: white;
   border-color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* .navbar {
   display: flex;
@@ -296,7 +280,6 @@ ul {
 
 /* Landing Page */
 
-
 .landing {
   position: relative;
   background: url('./img/llamalandingtwo.jpg') no-repeat center center/cover;
@@ -326,16 +309,20 @@ ul {
   height: 100vh;
 }
 
-#pratikimage{
+#pratikimage {
   width: 100%;
-  border: 2px solid black
+  border: 2px solid black;
 }
 
 #computerimage {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
+  /* box-sizing: border-box; */
+  /* background-color: #DDD; */
+  border: 3px solid #cfd8dc;
 }
-#pratikcontainer {
+.pratikcontainer {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
@@ -344,37 +331,29 @@ ul {
   margin-bottom: 1rem;
 }
 
-.imageborder {
-  display: block;
-  border-radius: 100%;
-  box-sizing: border-box;
-  background-color: #DDD;
-  border: 3px solid #cfd8dc;
-}
 
-#pratikfrontendreason {
+
+.pratikfrontendreason {
   padding: 40px 10px;
   background: #e0dcdc;
+  border-bottom: 1px solid #dcd9d9;
 }
 
 #pratikexperience {
   padding: 50px 15px;
   text-align: center;
   border-bottom: 1px solid #dcd9d9;
+  width: 100%;
 }
 
-.pratikexptimeline {
-  margin: 30px auto 0 auto;
-  position: relative;
-  max-width: 1000px;
-}
+
 
 .pratikexptimelinesection {
   position: relative;
   display: block;
   vertical-align: top;
   margin-bottom: 1rem;
-  
+  margin-top: 1rem;
 }
 
 .pratikexptimelinedate {
@@ -390,7 +369,7 @@ ul {
 .pratikexptimelinecontent {
   margin-left: 350px;
   background: #fff;
-  border: 1px solid #e6e6e6;
+  border: 3px solid #cfd8dc;
   padding: 15px;
   border-radius: 3px;
   text-align: left;
@@ -416,12 +395,14 @@ ul {
 }
 
 .pratikeducationitem {
-  max-width: 700px;
-  margin: 0 auto 30px auto;
+  width: 100%;
   padding: 15px;
+  border-radius: 3px;
   border: 1px solid black;
   text-align: left;
+  margin-top: 1rem;
 }
+
 
 .pratikeducationitem span {
   color: #858483;
@@ -450,31 +431,125 @@ ul {
   font-size: 1.2em;
 }
 
-/*Lama facts, jokes, gifs Page*/
+/*Lama  page*/
 .aboutllamas {
   position: relative;
   background: url('./img/llamapage.jpg') no-repeat center center/cover;
   height: 100vh;
 }
-#llamafunfacts {
-  padding: 50px 15px;
+
+.llamacontainer {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
-#llamajokes {
+
+.llamafactfont{
+  color:black;
+}
+.llamafactborder {
+  border: 3px solid #003953;
+}
+.carousel-indicators li{
+  box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color:#003953;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.accordion>.card:first-of-type {
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card {
+  position: relative;
+  /* display: -ms-flexbox; */
+  display: flex;
+  /* -ms-flex-direction: column; */
+  flex-direction: column;
+  min-width: 0;
+
+  margin-bottom: 5%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid rgba(0,0,0,.125);
+  border-radius: .55rem;
+}
+
+.llama-accordian-container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.llamaaltlayout {
   padding: 50px 15px;
+  text-align: center;
   background: #e0dcdc;
+
 }
-#llamagifs {
-  padding: 50px 15px;
+
+.llamafact-inner {
+  color: #fff;
+  height: auto;
+  width: 70%;
+  margin: auto;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+
+.llamajokeitem {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 1 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+
+
+
+
+
 
 /*footer*/
 .footer-style {
-  background: #f5f5f5;
+  background: #cee3f0;
   margin-bottom: 0;
 }
 .footer-container {
   width: auto;
-  padding: 20px 30px;
+  padding: 10px 20px;
   text-align: center;
 }
 
@@ -487,7 +562,49 @@ ul {
 }
 
 /* Mobile Styles */
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+
+  #edtextsmall {
+    font-size: 2rem;
+  }
+
+  #computerimage {
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 50%;
+    
+    
+    /* box-sizing: border-box; */
+    /* background-color: #DDD; */
+    border: 3px solid #cfd8dc;
+  }
+  
+  .pratikexpicon{
+    margin-left: -9%;
+    width: 30px;
+    height: 30px;
+    
+  }
+  .pratikexptimelinedate{
+    top:0px;
+    bottom: 10px;
+  }
+  .pratikexptimelinecontent{
+    margin-left:20px;
+  }
+  #imagedivmargin{
+    margin-top:2rem;
+  }
+
+  #aboutmemargin{
+    margin-top:1rem;
+  }
+
+  #experiencemargin{
+    margin-top:1rem;
+  }
+  
   .container {
     margin-top: 8rem;
   }
@@ -498,7 +615,7 @@ ul {
 
   /* Text Styles */
   .x-large {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .large {
@@ -512,12 +629,12 @@ ul {
   /* Navbar */
   .navbar {
     display: block;
-    text-align: center;
   }
 
-  .navbar ul {
-    text-align: center;
-    justify-content: center;
+  .navbar ul li {
+    border: 1px solid white;
+    width: 25%;
+    margin-top: 0.5rem;
   }
 
   .navbar h1 {
@@ -526,5 +643,9 @@ ul {
 
   .navbar .welcome {
     display: none;
+  }
+
+  .navbar-toggler {
+    float: right;
   }
 }
