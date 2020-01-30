@@ -216,12 +216,12 @@ const Llamas = () => {
                 <div className='col-sm-6'>
                   <Card>
                     <Accordion.Toggle as={Card.Header} eventKey='4'>
-                    What do you call a very fast llama?{' '}
+                      What do you call a very fast llama?{' '}
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey='4'>
                       <Card.Body>
                         {' '}
-                        <b>	A Llamagini</b>
+                        <b> A Llamagini</b>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>

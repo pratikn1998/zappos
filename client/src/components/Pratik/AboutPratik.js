@@ -71,9 +71,8 @@ const AboutPratik = () => {
         <h2 className='text-center '>
           Front-End Development and Why I love it...
         </h2>
-        
 
-        <div id="imagedivmargin"className='container pratikcontainer'>
+        <div id='imagedivmargin' className='container pratikcontainer'>
           <div className='row'>
             <div className='col-md-4'>
               <img id='computerimage' src={computer} alt='Computer' />
@@ -107,9 +106,7 @@ const AboutPratik = () => {
       </div>
       <div id='pratikexperience'>
         <div className='container pratikcontainer' id='experiencemargin'>
-          <h2>
-            Experience
-          </h2>
+          <h2>Experience</h2>
           <div className='pratikexptimelinesection'>
             <div className='pratikexpicon'>
               <i className='fas fa-map-pin fa-2x mt-2'></i>
@@ -173,14 +170,13 @@ const AboutPratik = () => {
       </div>
       <div className='frontendreason'>
         <div id='pratikeducation'>
-          <h2>
-            Education
-          </h2>
+          <h2>Education</h2>
           <div className='pratikcontainer pratikeducationitem'>
-            <h3 className='mt-3' id="edtextsmall">
-              Georgia Institute of Technology <span>August 2017 - Present</span>
+            <h3 className='mt-3' id='edtextsmall'>
+              Georgia Institute of Technology
             </h3>
             <h4>Bachelor of Science in Computer Science</h4>
+            <h5>August 2017 - Present</h5>
             <p>
               Threads: Intelligence and People
               <br />

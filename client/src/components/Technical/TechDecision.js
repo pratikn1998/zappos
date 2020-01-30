@@ -29,8 +29,6 @@ const TechDecision = () => {
             user to be able to view my website at any point in the day, whether
             it is on their phone, tablet, or computer. I also made this
             technical decision box mobile responsive by making it scrollable.
-
-            
             The framework I used to develop this website was React. The reason
             why I chose to use React was in case I wanted to add anything to the
             website that could easily be rendered or update the UI. I have
