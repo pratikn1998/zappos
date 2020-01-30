@@ -12,11 +12,14 @@ const Landing = () => {
           myself as a Front-End Developer!
         </p>
         <div className='buttons'>
-          <Link to='/llamas' className='btn btn-primary'>
-            About Llamas
+          <Link to='/llamas' className='btn btn-light'>
+            Llama Facts and Jokes
+          </Link>
+          <Link to='/aboutpratik' className='btn btn-primary'>
+            About Pratik
           </Link>
           <Link to='/aboutpratik' className='btn btn-light'>
-            About Pratik
+            Technical Decisions
           </Link>
         </div>
       </div>
