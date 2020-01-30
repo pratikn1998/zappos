@@ -9,8 +9,8 @@ app.use(express.static(path.resolve(__dirname, './client/public')));
 
 
 // viewed at based directory http://localhost:8080/
-app.get('/', function (req, res) {
-  res.sendFile('./client/public/index.html');
+app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname, '/client/public/index.html'));
 });
 
 

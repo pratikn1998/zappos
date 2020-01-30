@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const logo = require('svg-url-loader!./llama.svg'); // eslint-disable-line
+// const logo = require('svg-url-loader!./llama.svg'); // eslint-disable-line
 
 const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light'>
       <Link className='navbar-brand' id="navitemwhite" to='/'>
         <img
-          src={logo}
+          src='/llama.svg'
           width='30'
           height='30'
           className='d-inline-block align-top'

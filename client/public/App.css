@@ -135,8 +135,8 @@ ul {
   outline: none;
 }
 
-.btnPrimary,
-.bgPrimary {
+.btn-primary,
+.bg-primary {
   background: var(--primary-color);
   color: #fff;
 }
@@ -282,10 +282,10 @@ ul {
 
 .landing {
   position: relative;
-  background: url('./img/llamalandingtwo.jpg') no-repeat center center/cover;
+  background: url('/llamalandingtwo.jpg') no-repeat center center/cover;
   height: 100vh;
 }
-.landingInner {
+.landing-inner {
   color: #fff;
   height: 100%;
   width: 80%;
@@ -305,7 +305,7 @@ ul {
 
 .aboutpratik {
   position: relative;
-  background: url('./img/atlanta.jpg') no-repeat center center/cover;
+  background: url('/atlanta.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -434,7 +434,7 @@ ul {
 /*Lama  page*/
 .aboutllamas {
   position: relative;
-  background: url('./img/llamapage.jpg') no-repeat center center/cover;
+  background: url('/llamapage.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 
