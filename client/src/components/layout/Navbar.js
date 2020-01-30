@@ -39,6 +39,11 @@ const Navbar = () => {
               ABOUT PRATIK 
             </Link>
           </li>
+          <li className='nav-item'>
+            <Link className='nav-link'id="navitemwhite" to='/technicaldecisions'>
+              TECH DECISIONS 
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

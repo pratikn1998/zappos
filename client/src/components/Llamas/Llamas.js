@@ -9,7 +9,7 @@ const Llamas = () => {
     <Fragment>
       <section className='aboutllamas'>
         <div className='landing-inner'>
-          <h1 className='x-large'>LLAMA FACTS,JOKES,AND GIFS</h1>
+          <h1 className='x-large'>LLAMA FACTS AND JOKES</h1>
         </div>
       </section>
 

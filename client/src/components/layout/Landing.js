@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import styles from '../../App.css';
 
-const Navbar = () => {
+const Landing = () => {
   return (
     <section className='landing'>
       <div className='landing-inner'>
@@ -24,4 +24,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Landing;

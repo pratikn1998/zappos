@@ -537,6 +537,13 @@ ul {
 }
 
 
+.techdecision {
+
+    position: relative;
+    background: url('/techdecision.jpg') no-repeat center center/cover;
+    height: 100vh;
+  
+}
 
 
 
