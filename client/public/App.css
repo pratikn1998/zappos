@@ -575,11 +575,11 @@ ul {
 /*footer*/
 .footer-style {
   background: #cee3f0;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 .footer-container {
   width: auto;
-  padding: 10px 20px;
+  padding: 20px 20px;
   text-align: center;
 }
 
