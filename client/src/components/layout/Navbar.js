@@ -13,7 +13,7 @@ const Navbar = () => {
           className='d-inline-block align-top'
           alt=''
         />{' '}
-        Llamas
+        LLAMAS
       </Link>
       <button
         className='navbar-toggler'
@@ -31,12 +31,12 @@ const Navbar = () => {
         <ul className='navbar-nav ml-auto'>
           <li className='nav-item'>
             <Link className='nav-link' id="navitemwhite" to='/llamas'>
-              Llamas
+              LLAMAS
             </Link>
           </li>
           <li className='nav-item'>
             <Link className='nav-link'id="navitemwhite" to='/aboutpratik'>
-              About Pratik
+              ABOUT PRATIK 
             </Link>
           </li>
         </ul>
