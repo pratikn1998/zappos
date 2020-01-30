@@ -6,13 +6,13 @@ const Navbar = () => {
   return (
     <section className={styles.landing}>
       <div className={styles.landingInner}>
-        <h1 className='x-large'>WELCOME!</h1>
-        <p className='lead'>
+        <h1 className={styles.x-large}>WELCOME!</h1>
+        <p className={styles.lead}>
           The purpose of this website to help you learn more about llamas and
           myself as a Front-End Developer!
         </p>
-        <div className='buttons'>
-          <Link to='/llamas' className='btn btn-primary'>
+        <div className={styles.buttons}>
+          <Link to='/llamas' className={'styles.btn styles.btnPrimary'}>
             About Llamas
           </Link>
           <Link to='/aboutpratik' className='btn btn-light'>

@@ -135,8 +135,8 @@ ul {
   outline: none;
 }
 
-.btn-primary,
-.bg-primary {
+.btnPrimary,
+.bgPrimary {
   background: var(--primary-color);
   color: #fff;
 }
