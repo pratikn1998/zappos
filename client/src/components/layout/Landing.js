@@ -11,17 +11,23 @@ const Landing = () => {
           The purpose of this website to help you learn more about llamas and
           myself as a Front-End Developer!
         </p>
-        <div className='buttons'>
-          <Link to='/llamas' className='btn btn-light'>
-            Llama Facts and Jokes
-          </Link>
-          <Link to='/aboutpratik' className='btn btn-primary'>
-            About Pratik
-          </Link>
-          <Link to='/aboutpratik' className='btn btn-light'>
-            Technical Decisions
-          </Link>
-        </div>
+       
+          <div className='buttons'>
+         
+              <Link to='/llamas' className='btn btn-light'>
+                Llama Fact and Jokes
+              </Link>
+           
+              <Link to='/aboutpratik' className='btn btn-primary'>
+                About Pratik
+              </Link>
+         
+              <Link to='/technicaldecisions' className='btn btn-light'>
+                Technical Decisions
+              </Link>
+           
+          </div>
+      
       </div>
     </section>
   );
